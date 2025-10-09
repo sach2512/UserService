@@ -1,0 +1,109 @@
+﻿# ---------------------------
+# 🔹 Build & Publish Artifacts
+# ---------------------------
+bin/
+obj/
+out/
+publish/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+[Tt]emp/
+[Tt]empPE/
+
+# ---------------------------
+# 🔹 Visual Studio / Rider / VS Code
+# ---------------------------
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+
+# ---------------------------
+# 🔹 NuGet / Package Cache
+# ---------------------------
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---------------------------
+# 🔹 Logs, Backups & Temp Files
+# ---------------------------
+*.log
+*.tlog
+*.tmp
+*.bak
+*.old
+*.dbmdl
+*.cache
+*.swp
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.scc
+*.sbr
+
+# ---------------------------
+# 🔹 Test & Coverage Outputs
+# ---------------------------
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# ---------------------------
+# 🔹 Environment & Local Configs
+# ---------------------------
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+*.secret.json
+
+# ---------------------------
+# 🔹 OS Specific Files
+# ---------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ---------------------------
+# 🔹 ReSharper / Rider
+# ---------------------------
+_ReSharper*/
+*.DotSettings.user
+
+# ---------------------------
+# 🔹 JetBrains Rider
+# ---------------------------
+.idea/
+
+# ---------------------------
+# 🔹 Other Dev Tools
+# ---------------------------
+node_modules/
+wwwroot/dist/
+wwwroot/lib/
